@@ -73,3 +73,7 @@ table {
   tr:nth-child(odd) {
     background-color: #ccc;
   }
+  form label{
+    display:block;
+    padding: 5px 0px;
+  }

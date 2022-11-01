@@ -29,25 +29,36 @@
 			 <p><img src="images/dishFive.jpg" class="resize-img" alt="" class="resize-img"></p>
             
        
-           <form action="thank-you.html">
+           <form action="thank-you.html" method="">
             <div>
             <label for="yourName">Name:</label>
-            <input type="text" name="yourName" id="yourName" placeholder="Please Add Your Name">
+            <input type="text" name="yourName" id="yourName" placeholder="Please Add Your Name" required>
             </div>
             <div>
-            <label>Email:</label>
-            <input type="email" name="email" placeholder="Email Address">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="example123@example321.com - required" required>
             </div>
             <div>
-            <label>Telephone:</label>
-            <input type="tel" name="tel" placeholder="Telephone Number">
+            <label for="tel">Telephone:</label>
+            <input type="tel" name="tel" id="tel" placeholder="Telephone Number - optional">
             </div>
             <div>
-            <label for="message" >Message:</label>
-            <textarea name="message" id="message" placeholder="Your Message"></textarea>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" placeholder="You may type out your enquiry if you would like" rows="10" cols="25"></textarea>
             </div>
+            <div>
+                <label for="urgency">How urgent is your enquiry</label>
+                <select name="urgency" id="urgency">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+
             <div class="submitContainer">
-            <input type="submit" value="Send">
+            <input type="submit" value="Send enquiry">
             </div>
             </form>
             
