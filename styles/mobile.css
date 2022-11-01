@@ -77,3 +77,12 @@ table {
     display:block;
     padding: 5px 0px;
   }
+  form input,textarea{
+    width:100%;
+  }
+  form textarea{
+    height:100px;
+  }
+  .submitContainer input{
+    margin-top: 5px;
+  }
