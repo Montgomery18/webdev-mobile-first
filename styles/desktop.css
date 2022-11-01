@@ -54,4 +54,7 @@ main{
   border-radius: 8px;
   margin: 70px 0 0 10px;
 }
+table {
+  font-size: 1rem;
+}
 /* Form Styling Needs Adding */
